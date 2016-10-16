@@ -16,7 +16,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".SelecionarTarefa" />
-        <activity android:name=".CadastroAluno"></activity>
+        <activity android:name=".CadastroAluno" />
+        <activity android:name=".ProgressoAula"></activity>
     </application>
 
 </manifest>
