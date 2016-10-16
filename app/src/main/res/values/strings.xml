@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Trabalho_P1</string>
+    <string-array name="lista_tarefa">
+        <item>Selecione o Curso</item>
+        <item>Tarefa 1</item>
+        <item>Tarefa 2</item>
+    </string-array>
+
+    <string-array name="lista_aula">
+        <item>Selecione a aula</item>
+        <item>Aula 1</item>
+        <item>Aula 2</item>
+    </string-array>
+</resources>
