@@ -15,7 +15,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SelecionarTarefa"></activity>
+        <activity android:name=".SelecionarTarefa" />
+        <activity android:name=".CadastroAluno"></activity>
     </application>
 
 </manifest>
