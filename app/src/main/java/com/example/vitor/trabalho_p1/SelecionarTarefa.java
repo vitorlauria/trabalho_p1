@@ -9,6 +9,7 @@ import android.widget.Button;
 public class SelecionarTarefa extends MainActivity {
 
     private Button btnSair;
+    private Button btnCadastro;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,6 +23,16 @@ public class SelecionarTarefa extends MainActivity {
             public void onClick(View view) {
                 Intent retornaMainActivity = new Intent (SelecionarTarefa.this, MainActivity.class);
                 startActivity(retornaMainActivity);
+            }
+        });
+
+        btnCadastro = (Button) findViewById(R.id.btnCadastro);
+
+        btnCadastro.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent chamaCadastroALuno = new Intent (SelecionarTarefa.this, CadastroAluno.class);
+                startActivity(chamaCadastroALuno);
             }
         });
     }
