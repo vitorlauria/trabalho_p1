@@ -58,7 +58,8 @@
         android:id="@+id/txtSelecionaTarefa"
         android:textSize="18sp"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold" />
 
     <Spinner
         android:layout_width="match_parent"
@@ -101,28 +102,36 @@
         android:progress="200"/>
 
     <Button
-        android:text="Progresso"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/progressBar3"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="14dp"
-        android:id="@+id/btnProgresso" />
-
-    <Button
         android:text="Cadastro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/btnProgresso"
-        android:layout_toEndOf="@+id/checkBox2"
-        android:id="@+id/btnCadastro" />
+        android:id="@+id/btnCadastro"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/background_light"
+        android:layout_alignBaseline="@+id/btnProgresso"
+        android:layout_alignBottom="@+id/btnProgresso"
+        android:layout_centerHorizontal="true" />
 
     <Button
         android:text="Sair"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/btnCadastro"
-        android:layout_toEndOf="@+id/textView3"
-        android:id="@+id/btnSair" />
+        android:id="@+id/btnSair"
+        android:textColor="@android:color/background_light"
+        android:background="@color/colorPrimary"
+        android:layout_alignBaseline="@+id/btnCadastro"
+        android:layout_alignBottom="@+id/btnCadastro"
+        android:layout_toEndOf="@+id/checkBox" />
+
+    <Button
+        android:text="Progresso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:id="@+id/btnProgresso"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/background_light"
+        android:layout_below="@+id/progressBar3"
+        android:layout_toStartOf="@+id/txtSelecionaTarefa" />
 
 </RelativeLayout>

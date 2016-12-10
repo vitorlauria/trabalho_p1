@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Trabalho_P1</string>
+    <string name="app_name">P2</string>
     <string-array name="lista_tarefa">
         <item>Selecione o Curso</item>
         <item>Tarefa 1</item>

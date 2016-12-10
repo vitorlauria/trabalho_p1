@@ -18,7 +18,8 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="18dp"
         android:id="@+id/textView"
-        android:textSize="24sp" />
+        android:textSize="24sp"
+        tools:textStyle="bold" />
 
     <Spinner
         android:layout_width="match_parent"
@@ -83,7 +84,10 @@
         android:id="@+id/btnOK"
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
-        android:layout_marginBottom="29dp" />
+        android:layout_marginBottom="29dp"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/background_light"
+        android:onClick="cadastrarAluno" />
 
     <Button
         android:text="Limpar"
@@ -92,7 +96,9 @@
         android:id="@+id/btnLimpar"
         android:layout_alignBaseline="@+id/btnOK"
         android:layout_alignBottom="@+id/btnOK"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/background_light"
+        android:background="@color/colorPrimary" />
 
     <Button
         android:text="Voltar"
@@ -102,5 +108,7 @@
         android:layout_alignBaseline="@+id/btnLimpar"
         android:layout_alignBottom="@+id/btnLimpar"
         android:layout_toEndOf="@+id/btnLimpar"
-        android:layout_marginStart="15dp" />
+        android:layout_marginStart="15dp"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/background_light" />
 </RelativeLayout>
