@@ -8,7 +8,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.vitor.trabalho_p1.SelecionarTarefa">
+    tools:context=".MainActivity">
+
 
     <Spinner
         android:layout_width="match_parent"
@@ -106,22 +107,22 @@
         android:layout_below="@+id/progressBar3"
         android:layout_alignParentStart="true"
         android:layout_marginTop="14dp"
-        android:id="@+id/button" />
+        android:id="@+id/btnProgresso" />
 
     <Button
         android:text="Cadastro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/button"
+        android:layout_alignTop="@+id/btnProgresso"
         android:layout_toEndOf="@+id/checkBox2"
-        android:id="@+id/button2" />
+        android:id="@+id/btnCadastro" />
 
     <Button
         android:text="Sair"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/button2"
+        android:layout_below="@+id/btnCadastro"
         android:layout_toEndOf="@+id/textView3"
-        android:id="@+id/button3" />
+        android:id="@+id/btnSair" />
 
 </RelativeLayout>
